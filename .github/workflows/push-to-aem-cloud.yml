@@ -6,7 +6,7 @@ env:
   # Directory within the Cloud Manager Git repository
   PROJECT_DIR: sika-dam
   # Cloud Manager's Git repository
-  MAIN_REPOSITORY: https://$MAIN_USER:$MAIN_PASSWORD@git.cloudmanager.adobe.com/sika/new-sika-test-dam
+  MAIN_REPOSITORY: https://${{ secrets.MAIN_USER }}:${{ secrets.MAIN_PASSWORD }}@git.cloudmanager.adobe.com/sika/new-sika-test-dam
   # The branch in Cloud Manager's Git repository to push to
   MAIN_BRANCH : main
   
