@@ -19,7 +19,7 @@
       
   <groupId>com.sika.dam</groupId>
       
-  <artifactId>sika-dam</artifactId>
+  <artifactId>sika-dam-author</artifactId>
       
   <packaging>pom</packaging>
       

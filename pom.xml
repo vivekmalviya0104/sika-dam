@@ -10,5 +10,6 @@
 	<modules>
         <module>sika-dam-author</module> 
 	    <module>dispatcher</module> 
-   </modules>
+        <module>sika-assetshare</module> 
+    </modules>
 </project>
