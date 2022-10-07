@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workspaceFilter version="1.0">
-    <filter root="/conf/sika-assetshare" mode="merge"/>
-    <filter root="/content/sika-assetshare" mode="merge"/>
-    <filter root="/content/dam/sika-assetshare/asset.jpg" mode="merge"/>
-    <filter root="/content/experience-fragments/sika-assetshare" mode="merge"/>
-</workspaceFilter>
