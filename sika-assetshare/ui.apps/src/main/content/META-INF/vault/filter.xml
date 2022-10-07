@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/sika-assetshare/clientlibs"/>
+    <filter root="/apps/sika-assetshare/components"/>
+    <filter root="/apps/sika-assetshare/i18n"/>
+</workspaceFilter>
