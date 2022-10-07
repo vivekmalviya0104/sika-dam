@@ -21,7 +21,7 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.sika.dam</groupId>
+        <groupId>com.sika.assetshare</groupId>
         <artifactId>sika-assetshare</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -51,12 +51,12 @@
                     <properties>
                         <cloudManagerTarget>none</cloudManagerTarget>
                     </properties>
-                    <group>com.sika.dam</group>
+                    <group>com.sika.assetshare</group>
                     <name>sika-assetshare.ui.apps</name>
                     <packageType>application</packageType>
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
-                            <groupId>com.sika.dam</groupId>
+                            <groupId>com.sika.assetshare</groupId>
                             <artifactId>sika-assetshare.ui.apps.structure</artifactId>
                         </repositoryStructurePackage>
                     </repositoryStructurePackages>
@@ -107,13 +107,13 @@
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
-            <groupId>com.sika.dam</groupId>
+            <groupId>com.sika.assetshare</groupId>
             <artifactId>sika-assetshare.core</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>com.sika.dam</groupId>
+            <groupId>com.sika.assetshare</groupId>
             <artifactId>sika-assetshare.ui.frontend</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
@@ -121,7 +121,7 @@
 
 
         <dependency>
-            <groupId>com.sika.dam</groupId>
+            <groupId>com.sika.assetshare</groupId>
             <artifactId>sika-assetshare.ui.apps.structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>

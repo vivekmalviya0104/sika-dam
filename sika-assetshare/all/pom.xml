@@ -22,7 +22,7 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.sika.dam</groupId>
+        <groupId>com.sika.assetshare</groupId>
         <artifactId>sika-assetshare</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -49,33 +49,39 @@
                 <artifactId>filevault-package-maven-plugin</artifactId>
                 <extensions>true</extensions>
                 <configuration>
-                    <group>com.sika.dam</group>
+                    <group>com.sika.assetshare</group>
                     <packageType>container</packageType>
                     <!-- skip sub package validation for now as some vendor packages like CIF apps will not pass -->
                     <skipSubPackageValidation>true</skipSubPackageValidation>
                     <embeddeds>
                         <embedded>
-                            <groupId>com.sika.dam</groupId>
+                            <groupId>com.sika.assetshare</groupId>
                             <artifactId>sika-assetshare.ui.apps</artifactId>
                             <type>zip</type>
                             <target>/apps/sika-assetshare-packages/application/install</target>
                         </embedded>
                         <embedded>
-                            <groupId>com.sika.dam</groupId>
+                            <groupId>com.sika.assetshare</groupId>
                             <artifactId>sika-assetshare.core</artifactId>
                             <target>/apps/sika-assetshare-packages/application/install</target>
                         </embedded>
                         <embedded>
-                            <groupId>com.sika.dam</groupId>
+                            <groupId>com.sika.assetshare</groupId>
                             <artifactId>sika-assetshare.ui.content</artifactId>
                             <type>zip</type>
                             <target>/apps/sika-assetshare-packages/content/install</target>
                         </embedded>
                         <embedded>
-                            <groupId>com.sika.dam</groupId>
+                            <groupId>com.sika.assetshare</groupId>
                             <artifactId>sika-assetshare.ui.config</artifactId>
                             <type>zip</type>
                             <target>/apps/sika-assetshare-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem.commons</groupId>
+                            <artifactId>assetshare.all</artifactId>
+                            <type>zip</type>
+                            <target>/apps/sika-assetshare-packages/container/install</target>
                         </embedded>
                     </embeddeds>
                 </configuration>
@@ -179,23 +185,28 @@
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
-            <groupId>com.sika.dam</groupId>
+            <groupId>com.sika.assetshare</groupId>
             <artifactId>sika-assetshare.ui.apps</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
         <dependency>
-            <groupId>com.sika.dam</groupId>
+            <groupId>com.sika.assetshare</groupId>
             <artifactId>sika-assetshare.ui.content</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
         <dependency>
-            <groupId>com.sika.dam</groupId>
+            <groupId>com.sika.assetshare</groupId>
             <artifactId>sika-assetshare.ui.config</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
-
+        <dependency>
+            <groupId>com.adobe.aem.commons</groupId>
+            <artifactId>assetshare.all</artifactId>
+            <version>2.4.0</version>
+            <type>zip</type>
+        </dependency>
     </dependencies>
 </project>

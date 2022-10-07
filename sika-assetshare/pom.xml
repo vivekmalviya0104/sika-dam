@@ -17,7 +17,7 @@
       
   <modelVersion>4.0.0</modelVersion>
       
-  <groupId>com.sika.dam</groupId>
+  <groupId>com.sika.assetshare</groupId>
       
   <artifactId>sika-assetshare</artifactId>
       
@@ -46,7 +46,7 @@
     <module>ui.content</module>
             
     <module>it.tests</module>
-                        
+
     <module>ui.tests</module>
       
   </modules>
