@@ -35,7 +35,7 @@ services:
       - ./target/reports:/tmp/reports
       - 'shared:/tmp/shared'
       - 'shared:/usr/src/app/assets'
-    image: 'com.sika.dam-sika-assetshare.ui.tests/ui.tests:latest'
+    image: 'com.sika.assetshare-sika-assetshare.ui.tests/ui.tests:latest'
   selenium-firefox:
     image: 'selenium/standalone-firefox-debug'
     ports:

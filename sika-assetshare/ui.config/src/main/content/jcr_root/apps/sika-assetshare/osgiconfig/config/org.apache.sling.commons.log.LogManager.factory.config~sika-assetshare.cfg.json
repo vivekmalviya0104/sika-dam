@@ -1,6 +1,6 @@
 {
   "org.apache.sling.commons.log.names": [
-    "com.sika.dam"
+    "com.sika.assetshare"
   ],
   "org.apache.sling.commons.log.level": "INFO",
   "org.apache.sling.commons.log.file": "logs/error.log",

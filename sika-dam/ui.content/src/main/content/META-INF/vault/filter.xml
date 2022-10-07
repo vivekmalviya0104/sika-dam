@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/sika-dam" mode="merge"/>
+    <filter root="/content/sika-dam" mode="merge"/>
+    <filter root="/content/dam/sika-dam/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/sika-dam" mode="merge"/>
+</workspaceFilter>

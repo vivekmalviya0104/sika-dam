@@ -18,7 +18,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.sika.dam</groupId>
+        <groupId>com.sika.assetshare</groupId>
         <artifactId>sika-assetshare</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -139,6 +139,12 @@ Import-Package: javax.annotation;version=0.0.0,*
             <artifactId>org.apache.sling.models.impl</artifactId>
             <version>1.4.4</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem.commons</groupId>
+            <artifactId>assetshare.core</artifactId>
+            <version>2.4.0</version>
+            <type>jar</type>
         </dependency>
     </dependencies>
 </project>
